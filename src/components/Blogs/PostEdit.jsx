@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useRef } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 import { toast } from "react-toastify";
 
 export default function PostEdit({ afterEdit, article }) {

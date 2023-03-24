@@ -6,6 +6,7 @@ import PostList from "../components/Blogs/PostList";
 import Heading from "../components/Heading";
 import DynamicModal from "../components/utils/DynamicModal";
 import { ModalContext } from "../contexts/ModalContext";
+import PostEdit from "../components/Blogs/PostEdit";
 
 export default function Articles() {
   const [articles, setArticles] = useState([]);
